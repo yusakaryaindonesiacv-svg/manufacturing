@@ -17,8 +17,8 @@ export default defineConfig(({mode}) => {
         },
         includeAssets: ['favicon.ico', 'apple-touch-icon.png', 'mask-icon.svg'],
         manifest: {
-          name: 'ProMan HPP Manufacturing',
-          short_name: 'ProMan HPP',
+          name: 'Manufacturing',
+          short_name: 'MANUFACTURING',
           description: 'Aplikasi Manajemen Produksi & HPP Manufacturing',
           theme_color: '#050505',
           background_color: '#050505',

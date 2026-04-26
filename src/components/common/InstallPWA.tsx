@@ -89,7 +89,7 @@ export default function InstallPWA() {
               <div className="flex-1 min-w-0">
                 <h3 className="text-[11px] font-bold text-text-stark uppercase tracking-wider mb-1">Install App</h3>
                 <p className="text-[9px] text-text-dim uppercase leading-relaxed tracking-tight mb-4">
-                  Akses ProMan HPP lebih cepat & stabil dengan menginstall aplikasi di layar utama.
+                  Akses MANUFACTURING lebih cepat & stabil dengan menginstall aplikasi di layar utama.
                 </p>
                 
                 <button

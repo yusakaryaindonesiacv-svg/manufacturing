@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  --color-brand-50: #fdfcf0;
+  --color-brand-100: #fbf8d1;
+  --color-brand-200: #f5eea2;
+  --color-brand-300: #eddf68;
+  --color-brand-400: #e3cc3b;
+  --color-brand-500: #d4af37; /* The core gold accent */
+  --color-brand-600: #b58d2a;
+  --color-brand-700: #916924;
+  --color-brand-800: #765421;
+  --color-brand-900: #64471f;
+
+  --color-bg-deep: #0A0A0A;
+  --color-bg-side: #0F0F0F;
+  --color-bg-nav: #0D0D0D;
+  --color-bg-card: #141414;
+  
+  --color-border-dim: #222222;
+  --color-border-muted: #333333;
+
+  --color-text-main: #E0E0E0;
+  --color-text-dim: #888888;
+  --color-text-muted: #666666;
+  --color-text-stark: #FFFFFF;
+}
+
+@layer base {
+  body {
+    @apply antialiased text-text-main bg-bg-deep transition-colors duration-300 selection:bg-brand-500 selection:text-bg-deep;
+  }
+}
+
+.glass-panel {
+  @apply bg-bg-card border border-border-dim shadow-none rounded-none;
+}
+
+.btn-primary {
+  @apply px-4 py-2 bg-brand-500 hover:bg-brand-600 text-bg-deep rounded-none font-bold uppercase tracking-widest text-[10px] transition-all active:scale-95 disabled:opacity-50 disabled:cursor-not-allowed cursor-pointer border border-brand-500;
+}
+
+.btn-secondary {
+  @apply px-4 py-2 bg-transparent border border-border-muted hover:bg-bg-side text-text-dim hover:text-text-main rounded-none font-bold uppercase tracking-widest text-[10px] transition-all active:scale-95 cursor-pointer;
+}
+
+.input-field {
+  @apply w-full px-4 py-2 bg-bg-deep border border-border-dim rounded-none focus:ring-1 focus:ring-brand-500 focus:border-brand-500 outline-none transition-all text-text-main placeholder:text-text-muted;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-bg-deep;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-border-muted rounded-none;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-text-muted;
+}

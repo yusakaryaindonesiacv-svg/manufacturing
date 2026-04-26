@@ -1,0 +1,14 @@
+{
+  "name": "HPP & Produksi UMKM Pro",
+  "description": "Sistem manajemen produksi, stok, dan perhitungan HPP otomatis dengan estetika 'Sophisticated Dark' untuk operasional manufaktur yang elegan.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "inventory_management",
+    "production_tracking",
+    "cogs_calculation",
+    "role_based_access"
+  ]
+}

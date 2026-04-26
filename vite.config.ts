@@ -17,25 +17,25 @@ export default defineConfig(({mode}) => {
         },
         includeAssets: ['favicon.ico', 'apple-touch-icon.png', 'mask-icon.svg'],
         manifest: {
-          name: 'Manufacturing',
+          name: 'MANUFACTURING',
           short_name: 'MANUFACTURING',
-          description: 'Aplikasi Manajemen Produksi & HPP Manufacturing',
+          description: 'Premium Manufacturing & HPP System',
           theme_color: '#050505',
           background_color: '#050505',
           display: 'standalone',
           icons: [
             {
-              src: 'https://cdn-icons-png.flaticon.com/512/2611/2611152.png',
+              src: 'https://img.icons8.com/fluency/512/factory.png',
               sizes: '192x192',
               type: 'image/png'
             },
             {
-              src: 'https://cdn-icons-png.flaticon.com/512/2611/2611152.png',
+              src: 'https://img.icons8.com/fluency/512/factory.png',
               sizes: '512x512',
               type: 'image/png'
             },
             {
-              src: 'https://cdn-icons-png.flaticon.com/512/2611/2611152.png',
+              src: 'https://img.icons8.com/fluency/512/factory.png',
               sizes: '512x512',
               type: 'image/png',
               purpose: 'any maskable'

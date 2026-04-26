@@ -108,7 +108,7 @@ function SidebarContent({ filteredMenu, activeTab, setActiveTab, user, logout, o
       <div className="py-8 px-6 flex-1 overflow-y-auto">
         <div className="mb-10 px-2 flex items-center justify-between">
           <div>
-            <h1 className="text-brand-500 text-2xl font-serif italic tracking-tight">ProMan HPP</h1>
+            <h1 className="text-brand-500 text-2xl font-serif italic tracking-tight">MANUFACTURING</h1>
             <p className="text-[10px] text-text-muted uppercase tracking-[0.2em] mt-1">Premium Manufacturing</p>
           </div>
         </div>
